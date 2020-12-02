@@ -9,5 +9,5 @@ var removeDuplicates = function(nums) {
         if(nums[i] == nums[i-1]){
             nums.splice(i,1)
         }
-    }a
+    }
 };

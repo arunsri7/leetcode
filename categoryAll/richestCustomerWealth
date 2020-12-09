@@ -1,0 +1,14 @@
+var maximumWealth = function(accounts) {
+    total = Array()
+    for(i of accounts){
+        total.push(i.reduce(sum))
+    }
+    return Math.max(...total)
+};
+
+let sum = (a,b) => {
+    return a+b
+}
+
+
+
